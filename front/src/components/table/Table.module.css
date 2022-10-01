@@ -1,0 +1,51 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  list-style: none;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.pagination li.active {
+  color: #40a9ff;
+  border-color: #1890ff;
+}
+
+.pagination li button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination li:hover {
+  border: 1px solid #1890ff;
+}
+
+.pagination li:hover button{
+  color: #40a9ff;
+}
+
+.table{
+  border: none;
+  width: 80%;
+  margin: 3rem auto 2rem;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.table td{
+  padding: .8rem 0;
+}
+
+.table th{
+  padding: 1rem;
+  font-weight: bolder;
+}
